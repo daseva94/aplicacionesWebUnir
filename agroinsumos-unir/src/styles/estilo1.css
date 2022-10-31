@@ -1,3 +1,13 @@
-header{
-    background-color: blue;
+body {
+    background-image: url("https://img.freepik.com/fotos-premium/produccion-agricola-cultivos-hortalizas-colombia_680303-1129.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
 }
+
+h1 {
+    background-color: black;
+    display: inline;
+    z-index: 100;
+}
+

@@ -1,0 +1,33 @@
+header {
+    background-color: rgb(41, 41, 40);
+    height: 200px;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.div-logo{
+    float: left;
+	padding: 15px 0 0 20px;
+    margin-top: 15px;
+	text-decoration: none;
+}
+
+header .nav-menu{
+    display: inline-block;
+    color: aliceblue;
+    padding: 15px 0 0 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+header .nav-menu .menu li{
+    display: inline;
+    padding: 30px;
+}
+
+header .nav-menu .menu li:hover{
+    color: greenyellow;
+}
