@@ -1,13 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+    /* caracteristicas usadas en css global para que el tamaño de las cajas se modifique hacia adentro y NO hacia afuera (esto agrandaría el tamaño de los mismos)  */
+}
+
+
 body {
-    background-image: url("https://img.freepik.com/fotos-premium/produccion-agricola-cultivos-hortalizas-colombia_680303-1129.jpg?w=2000");
+    background-image: url("https://images.freeimages.com/images/large-previews/743/spring-crop-fields-1178109.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 0;
+   
 }
 
 h1 {
-    background-color: black;
-    display: inline;
-    z-index: 100;
+    display: block;
+    padding: 70px;
+    font-size: 40px;
+    
 }
+
+p{
+    display: block;
+    padding: 70px;
+    font-size: 20px;
+}
+
 

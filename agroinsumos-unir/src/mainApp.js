@@ -8,21 +8,23 @@ import "./styles/estilo1.css";
 
 export const MainApp = () => {
     return(
-        <div>
+        
 
+            
+
+            <body>
             <header>
                 <HeaderP></HeaderP>             
             </header>
-
-            <body>
                 <BodyP></BodyP>
+                <footer>
+                <FooterP></FooterP>
+            </footer>
             </body>
 
-            <footer>
-                {/* <FooterP></FooterP> */}
-            </footer>
+            
 
-        </div>
+        
 
     )
 };

@@ -8,7 +8,7 @@ class HeaderP extends Component {
         return (
             <header>
 
-<nav className="nav-menu">
+                    <nav className="nav-menu">
                         <ul className="menu">
                             <li>Inicio</li>
                             <li>Quienes Somos</li>

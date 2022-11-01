@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+    /* caracteristicas usadas en css global para que el tamaño de las cajas se modifique hacia adentro y NO hacia afuera (esto agrandaría el tamaño de los mismos)  */
+}
+
 header {
     background-color: rgb(41, 41, 40);
     height: 200px;
@@ -30,4 +37,32 @@ header .nav-menu .menu li{
 
 header .nav-menu .menu li:hover{
     color: greenyellow;
+}
+
+footer{
+    background-color: rgb(41, 41, 40);
+    height: 150px;
+    padding: 0;
+    bottom: 0;
+    z-index: 100;
+    margin-top: 200px;
+}
+
+.div-logo2{
+    float: left;
+	padding: 15px 0 0 20px;
+    margin-top: 15px;
+	text-decoration: none;
+}
+
+.logo2{
+    width: 150px;
+    height: auto;
+}
+
+p .sublogo{
+    loat: left;
+	padding: 15px 0 0 20px;
+    margin-top: 15px;
+	text-decoration: none;
 }
