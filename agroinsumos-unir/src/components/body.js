@@ -5,12 +5,12 @@ class BodyP extends Component {
 
     render(){
         return (
-            <section>
-                <h1>SANIDAD VEGETAL</h1>
+            <div className="cuerpo">
+                <h1 className="eslogan-titulo"><b>SANIDAD VEGETAL</b></h1>
                 <section>
-                    <p>Trabajando por la sanidad de los cultivos colombianos</p>
+                    <p className="eslogan-body"><b>Trabajando por la sanidad de los cultivos colombianos</b></p>
                 </section>
-                </section>
+                </div>
         )
     }
 

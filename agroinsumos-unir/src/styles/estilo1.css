@@ -1,29 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;     
+    box-sizing: border-box; 
+    font-family: 'Roboto Mono', monospace;    
     /* caracteristicas usadas en css global para que el tamaño de las cajas se modifique hacia adentro y NO hacia afuera (esto agrandaría el tamaño de los mismos)  */
+}
+
+.cuerpo{
+    position: relative;
+    width: 100%;
+    height: 500px;
 }
 
 
 body {
+
     background-image: url("https://images.freeimages.com/images/large-previews/743/spring-crop-fields-1178109.jpg");
     background-repeat: no-repeat;
     background-size: cover;
    
 }
 
-h1 {
-    display: block;
+.eslogan-titulo{
+    
     padding: 70px;
-    font-size: 40px;
+    font-size: 60px;
+    color: aliceblue
     
 }
 
-p{
-    display: block;
-    padding: 70px;
-    font-size: 20px;
+.eslogan-body{
+    
+    padding: 30px;
+    margin-left: 45px;
+    font-size: 25px;
+    color: aliceblue;
 }
 
 

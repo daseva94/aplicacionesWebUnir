@@ -6,6 +6,7 @@ import FooterP from "./components/footer";
 /* Importando estilos */
 import "./styles/estilo1.css";
 
+
 export const MainApp = () => {
     return(
         
@@ -17,7 +18,7 @@ export const MainApp = () => {
                 <HeaderP></HeaderP>             
             </header>
                 <BodyP></BodyP>
-                <footer>
+            <footer>
                 <FooterP></FooterP>
             </footer>
             </body>
