@@ -60,50 +60,23 @@ body {
 
 .barraDeBusqueda #buscar{
     width: 400px;
+    margin-bottom: 2rem;
 }
 
 .diccionario{
     margin: 5% 5%;
-   
-    
+    display: inline;
+    position: inherit;
 }
 
-.diccionario{
-    
-
-   
+.diccionario object{
+    display: inline;
+    position: inherit;
+    margin: 2rem;
 }
 
-.objeto-diccionario{
-    border: 2px solid black;
-    display: inherit;
-    
-}
-
-.objeto-diccionario-ul{
-    
-   
-}
-
-.objeto-diccionario-ul li{
+.diccionario-ul li{
     text-decoration: none;
-    position: relative;
-    
-}
-
-/* .diccionario .objeto-diccionario{
     display: inherit;
-    position: relative;
+    margin: 1rem;
 }
-
-.objeto-diccionario ul{
-    display: inherit;
-    position: relative;
-}
-
-.objeto-diccionario ul li{
-    display: inherit;
-    position: relative;
-    text-decoration: none;
-}
- */

@@ -13,7 +13,7 @@ export const MainApp = () => {
 
             
 
-            <body>
+            <div>
             <header>
                 <HeaderP></HeaderP>             
             </header>
@@ -21,7 +21,7 @@ export const MainApp = () => {
             <footer>
                 <FooterP></FooterP>
             </footer>
-            </body>
+            </div>
 
             
 

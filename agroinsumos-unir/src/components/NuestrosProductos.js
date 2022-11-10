@@ -9,38 +9,36 @@ class NuestrosProductos extends Component {
                 <h1 className="tituloCuerpo2">Tipos de plagas y servicios de erradicación</h1>
 
                 <section className="barraDeBusqueda">
-                    <label for="buscar" className="buscar" >Buscar:</label>
+                    <label htmlFor="buscar" className="buscar" >Buscar:</label>
                     <input id="buscar" placeholder="Escriba una palabra clave"></input>
                 </section>
-
-                <section className="diccionario">
-                    <div className="objeto-diccionario">
-                        <img className="objeto-dic-img" src="#"/>
-                        <ul className="objeto-diccionario-ul">
-                            <li>atributo1</li>
-                            <li>atributo2</li>
-                            <li>atributo3</li>
-                        </ul>
-                    </div>
-
-                    <div className="objeto-diccionario">
-                        <img className="objeto-dic-img" src="#"/>
-                        <ul className="objeto-diccionario-ul">
-                            <li>atributo1</li>
-                            <li>atributo2</li>
-                            <li>atributo3</li>
-                        </ul>
-                    </div>
-
-                    <div className="objeto-diccionario">
-                        <img className="objeto-dic-img" src="#"/>
-                        <ul className="objeto-diccionario-ul">
-                            <li>atributo1</li>
-                            <li>atributo2</li>
-                            <li>atributo3</li>
-                        </ul>
-                    </div>
-                </section>
+                <div className="diccionario">
+                    <object>
+                            <img className="objeto-dic-img" src="#"/>
+                            <ul className="diccionario-ul">
+                                <li>atributo1</li>
+                                <li>atributo2</li>
+                                <li>atributo3</li>
+                            </ul>
+                    </object>
+                    <object>
+                            <img className="objeto-dic-img" src="#"/>
+                            <ul className="diccionario-ul">
+                                <li>atributo1</li>
+                                <li>atributo2</li>
+                                <li>atributo3</li>
+                            </ul>
+                    </object>
+                    <object>
+                            <img className="objeto-dic-img" src="#"/>
+                            <ul className="diccionario-ul">
+                                <li>atributo1</li>
+                                <li>atributo2</li>
+                                <li>atributo3</li>
+                            </ul>
+                    </object>
+                </div>
+                
             </div>
         )
     }

@@ -10,9 +10,9 @@ class HeaderP extends Component {
 
                     <nav className="nav-menu">
                         <ul className="menu">
-                            <li>Inicio</li>
-                            <li>Quienes Somos</li>
-                            <li>Nuestros Productos</li>
+                            <li><a href="/">Inicio</a></li>
+                            <li><a href="#">Quienes Somos</a></li>
+                            <li><a href="/NuestrosProductos">Nuestros Productos</a></li>
                         </ul>
                     </nav>
                     <div className="div-logo">
