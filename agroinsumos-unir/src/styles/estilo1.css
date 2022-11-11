@@ -44,6 +44,8 @@ body {
     background-color: aliceblue;
     width: 80%;
     margin: 5% 10%;
+    filter:alpha(opacity=85);
+    -moz-opacity:.85;opacity:.85;
     
 }
 
@@ -65,14 +67,19 @@ body {
 
 .diccionario{
     margin: 5% 5%;
-    display: inline;
-    position: inherit;
+    display: flex;
+    position: relative;
+    text-align: center;
+    
+}
+
+.diccionario .objeto-dic-img{
+   width: 100px;
 }
 
 .diccionario object{
-    display: inline;
-    position: inherit;
-    margin: 2rem;
+    
+    margin: 0 2rem;
 }
 
 .diccionario-ul li{

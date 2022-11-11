@@ -14,7 +14,8 @@ class NuestrosProductos extends Component {
                 </section>
                 <div className="diccionario">
                     <object>
-                            <img className="objeto-dic-img" src="#"/>
+                            <img className="objeto-dic-img" src={process.env.PUBLIC_URL + "/imagen-test.png"}/>
+                            <h3>titulo</h3>
                             <ul className="diccionario-ul">
                                 <li>atributo1</li>
                                 <li>atributo2</li>
@@ -22,15 +23,17 @@ class NuestrosProductos extends Component {
                             </ul>
                     </object>
                     <object>
-                            <img className="objeto-dic-img" src="#"/>
+                            <img className="objeto-dic-img" src={process.env.PUBLIC_URL + "/imagen-test.png"}/>
+                            <h3>titulo</h3>
                             <ul className="diccionario-ul">
                                 <li>atributo1</li>
-                                <li>atributo2</li>
+                               <li>atributo2</li>
                                 <li>atributo3</li>
                             </ul>
                     </object>
                     <object>
-                            <img className="objeto-dic-img" src="#"/>
+                            <img className="objeto-dic-img" src={process.env.PUBLIC_URL + "/imagen-test.png"}/>
+                            <h3>titulo</h3>
                             <ul className="diccionario-ul">
                                 <li>atributo1</li>
                                 <li>atributo2</li>

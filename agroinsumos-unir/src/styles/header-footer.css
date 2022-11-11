@@ -41,12 +41,12 @@ header .nav-menu .menu li{
 }
 
 .header .nav-menu .menu li a{
-    color: aliceblue;
+    color: white;
     text-decoration: none;
     
 }
 
-header .nav-menu .menu li:hover{
+header .nav-menu .menu li a:hover{
     color: greenyellow;
 }
 
@@ -86,7 +86,7 @@ footer{
 }
 
 .contacto{
-    display: inline-block;
+    display: absolute;
     float: right;
     color: aliceblue;
     margin-top: 30px;
