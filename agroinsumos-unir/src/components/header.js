@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { NavLink } from "react-router-dom";
 import "../styles/header-footer.css"
 
 
@@ -10,9 +11,9 @@ class HeaderP extends Component {
 
                     <nav className="nav-menu">
                         <ul className="menu">
-                            <li><a href="/">Inicio</a></li>
-                            <li><a href="/quienesSomos">Quienes Somos</a></li>
-                            <li><a href="/NuestrosProductos">Nuestros Productos</a></li>
+                            <li><NavLink to={"/"} className={(navData => navData.isActive ? "active" : "noActive")}>Inicio</NavLink></li>
+                            <li><NavLink to={"/quienesSomos"} className={(navData => navData.isActive ? "active" : "noActive")}>Quienes Somos</NavLink></li>
+                            <li><NavLink to={"/NuestrosProductos"} className={(navData => navData.isActive ? "active" : "noActive")}>Nuestros Productos</NavLink></li>
                         </ul>
                     </nav>
                     <div className="div-logo">

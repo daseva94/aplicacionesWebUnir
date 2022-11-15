@@ -65,6 +65,18 @@ body {
     margin-bottom: 2rem;
 }
 
+.nav-menu{
+    display: flex;
+    position: relative;
+    margin: 1rem 1rem;
+    text-align: right;
+}
+
+.nav-menu p{
+    margin: 0 50px;
+}
+
+
 .diccionario{
     margin: 5% 5%;
     display: flex;
