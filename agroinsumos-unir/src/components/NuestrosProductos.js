@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component, useState} from "react";
 import { useLocation, useNavigate } from "react-router";
 import "../styles/estilo1.css";
 
@@ -19,6 +19,9 @@ const NuestrosProductos = () => {
     const handleNext = (e) => {
         navigate({search:`?inicio=${start + LIMIT}&fin=${end + LIMIT}`})
     }
+
+    const [newTaskName, setNewTaskName] = useState();
+    let saveDataVar = newTaskName;
     
 
     
@@ -28,9 +31,11 @@ const NuestrosProductos = () => {
 
                 <section className="barraDeBusqueda">
                     <label htmlFor="buscar" className="buscar" >Buscar:</label>
-                    <input id="buscar" placeholder="Escriba una palabra clave"></input>
+                    <input id="buscar" placeholder="Escriba una palabra clave" onChange={(e) => setNewTaskName(e.target.value)}></input>
+                    <button onClick={() => alert(`Resultados de busqueda para: ${newTaskName}`)}>Go!</button>
                 </section>
                 <div className="nav-menu">
+                    {/* {saveDataVar =! null && <p>Resultados de busqueda para: <b>{saveDataVar}</b></p>} */}
                     {start > LIMIT && <button onClick={handlePrev}>Atrás</button>}
                     <p>Mostrando productos del <b>{start}</b> al <b>{end}</b></p>
                     <button onClick={handleNext}>Adelante</button>
